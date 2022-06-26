@@ -1,10 +1,6 @@
 from django.urls import path
 from . import views
-from .views import PostListView
-from .views import PostCreateView
-from .views import PostDetailView
-from .views import PostUpdateView
-from .views import PostDeleteView
+from .views import PostListView, PostDetailView, PostCreateView, PostUpdateView, PostDeleteView
 
 app_name = 'blog'
 
